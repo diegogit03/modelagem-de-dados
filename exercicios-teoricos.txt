@@ -1,0 +1,56 @@
+1) Defina Modelagem Conceitual;
+
+R: O objetivo aqui é criar um modelo de forma gráfica, sendo este chamado de Diagrama 
+Entidade e Relacionamento (DER), que identificará todas as entidades e relacionamentos 
+de uma forma global.
+
+2) Defina Modelagem Lógica;
+
+R: Os modelos lógicos basicamente determinam se todos os requisitos do negócio foram reunidos.
+Ele é revisado pelos desenvolvedores, pelo gerenciamento e, por fim, pelos usuários finais
+para ver se é necessário coletar mais informações antes do início da modelagem física.
+
+3) Defina Modelagem Física;
+
+R: A modelagem física lida com o design do banco de dados real com base nos requisitos reunidos durante a modelagem lógica do banco de dados.
+Todas as informações coletadas são convertidas em modelos relacionais e modelos de negócios.
+Durante a modelagem física, os objetos são definidos em um nível denominado nível de esquema.
+Um esquema é considerado um grupo de objetos que estão relacionados entre si em um banco de dados.
+
+4) Explique a Cardinalidade Máxima e Mínima entre relações;
+
+R: A cardinalidade é um número que expressa o comportamento (número de ocorrências) de 
+determinada entidade associada a uma ocorrência da entidade em questão através do relacionamento.
+Existem dois tipos de cardinalidade: mínima e máxima. A cardinalidade máxima, expressa o 
+número máximo de ocorrências de determinada entidade, associada a uma ocorrência da 
+entidade em questão, através do relacionamento. A cardinalidade mínima, expressa o número 
+mínimo de ocorrências de determinada entidade associada a uma ocorrência da entidade em 
+questão através do relacionamento.
+
+5) O que é a Normalização de Dados?
+
+R: Normalização é o processo de modelar o banco de dados projetando a forma como as 
+informações serão armazenadas a fim de eliminar, ou pelo menos minimizar, a redundância 
+no banco. Tal procedimento é feito a partir da identificação de uma anomalia em uma 
+relação, decompondo-as em relações melhor estruturadas.
+
+6) Defina a Primeira Forma Normal;
+
+R: Uma relação está na primeira forma normal quando todos os atributos contém apenas um 
+valor correspondente, singular e não existem grupos de atributos repetidos — ou seja, não 
+admite repetições ou campos que tenham mais que um valor.(multivalorada)
+
+
+7) Defina a Segunda Forma Normal;
+
+R: É dito que uma tabela está na segunda forma normal se ela atende a todos os requisitos 
+da primeira forma normal e se os registros na tabela, que não são chaves, dependam da 
+chave primária em sua totalidade e não apenas parte dela. A segunda forma normal trabalha 
+com essas irregularidades e previne que haja redundância no banco de dados.
+
+8) Defina a Terceira Forma Normal;
+
+R: Se analisarmos uma tupla e não encontrarmos um atributo não chave dependente de outro 
+atributo não chave, podemos dizer que a entidade em questão está na terceira forma normal 
+- contanto que esta não vá de encontro as especificações da primeira e da segunda forma 
+normal.
